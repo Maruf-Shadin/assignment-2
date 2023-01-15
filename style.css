@@ -10,6 +10,7 @@
 }
 .header{
     background: rgba(255, 144, 14, 0.1);
+    width: 100%;
 }
 
 /*------------ Navbar Style----------------- */
@@ -133,10 +134,18 @@
     height: 982px;
 }
 .article-2-part-2{
+    /* width: 790px;
+    height: 1058px; */
     /* padding: 0 0 20px 30px; */
-    background: url(images/architect.png);
-    background-repeat: no-repeat;
-    background-position: top right;
+    /* background: url(images/architect.png); */
+    /* background: rgba(255, 144, 14, 0.1); */
+    /* background-repeat: no-repeat;
+    background-position: top right; */
+    position: relative;
+}
+.article-2-part-2 img{
+    padding: 0 0 20px 100px;
+    position: absolute top right;
 }
 .article-2-title h3{
     width: 468px;
@@ -149,7 +158,7 @@
     padding-left: 21px;
     margin-bottom: 24px;
 }
-..article-2-title p{
+.article-2-title p{
     width: 586px;
     height: 78px;
     font-weight: 400;
@@ -182,22 +191,26 @@
     font-size: 16px;
     line-height: 26px;
 }
-/* .btn-secondary{
-    background-color: #FF900E;
-    color: #fff; 
-    font-weight: 700; 
-    font-size: 65px; 
-    text-align: center; 
-    width: 342px; 
+.btn{
+    position: absolute left bottom;
+    width: 342px;
     height: 200px;
+    /* padding: 42px 42px; */
+    background: #FF900E;
+    border-radius: 8px;
     border-style: none;
-    padding: 45px 42px;
-} */
-/* .btn-secondary{
-    float: bottom left;
-    padding: 50px 0 50px;
-    
-} */
+    color: azure;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+}
+.btn span{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+}
+
+/* Some-facts section style */
 .some-facts{
     margin-bottom: 180px;
 }
@@ -269,6 +282,9 @@
     display: flex;
     justify-content: space-evenly;
 }
+.our-sponsor-item{
+    background-blend-mode: luminosity;
+}
 /* footer style */
 .footer{ 
     background: #FFF4E7;
@@ -286,3 +302,27 @@
     text-align: center;
     color: #424242;
 }
+
+/* @media Query Responsive Mobile device
+@media only screen and (max-width:688px){
+    .header{
+        width: 100%;
+    }
+    .nav-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .nav-title{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 53px;
+        color: #131313;
+        text-align: center;
+    }
+    .header-article-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+} */

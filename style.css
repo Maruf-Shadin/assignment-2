@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.body{
+    width: 1920px;
+}
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* Navbar Style */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 240px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    text-align: center;
+
+}
+.nav-item ul{
+    /* text-decoration: none; */
+}
+.nav-item ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+}
+.nav-item ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #424242;
+}
+/* header article styles */
+.header-article-container{
+    text-align: center;
+}
+.header-article{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+    padding: 0 529px;
+    margin-bottom: 32px;
+}
+.header-article h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+}
+.header-article p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    text-align: center;
+}
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 870px;
+}
+.header-banner {
+    padding: 50px 230px;
+}
+/* main style */
